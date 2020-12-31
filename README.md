@@ -9,6 +9,11 @@ This Terraform module can create an arbitrary number of IAM users, roles and pol
 entities defined as JSON or templatable json files files. Users can also additionally be created with inline policies or policy ARN's attached as well as their access key rotation can be fully managed.
 
 
+## Deprecation Warning
+
+This repository is deprecated as all IAM features have been integrated into: [github.com/cytopia/terraform-aws-iam](https://github.com/cytopia/terraform-aws-iam)
+
+
 ## Important note
 
 When creating an IAM user with an `Inactive` access key it is initially created with access key set to `Active`. You will have to run it a second time in order to deactivate the access key.
